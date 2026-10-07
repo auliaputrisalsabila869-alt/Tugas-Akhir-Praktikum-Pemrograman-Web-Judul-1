@@ -30,8 +30,8 @@ body {
 }
 /* 2. Header & Navigasi (Flexbox Layout) */
 .site-header {
-    background: linear-gradient (1535deg, #1e40af, #2563eb);
-    color: #000000;
+    background: linear-gradient(135deg, #1e40af, #2563eb);
+    color: #ffffff;
     padding: 24px 0;
 }
 .header-brand{
@@ -50,7 +50,7 @@ body {
 }
 
 .site-header p{
-    color: #bfdbfe;
+    color: #ffffff;
     font-size: 0.95rem;
 }
 
@@ -82,7 +82,7 @@ body {
 
 .site-nav a:hover {
     color: var(--primary);
-    background-color: var (--primary-light);
+    background-color: var(--primary-light);
 }
 /* 3. Section & Kartu Informasi */
 main {
