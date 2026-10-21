@@ -102,9 +102,9 @@ document.addEventListener("DOMContentLoaded", function(){
     // Percobaan 3-2 langkah 6
 
     if (data.length === 0) {
-    
+       
         // Percobaan 3-2 langkah 7
-    
+       
     }
 
     
@@ -115,10 +115,12 @@ document.addEventListener("DOMContentLoaded", function(){
 
 
         // Percobaan 3-2 langkah 9
-
+        
     });
 
     // Percobaan 3-2 langkah 10
+
+}
 
 // 6. Validasi Form Sisi Klien Menggunakan Regular Expression (Percobaan 3-3).
 
