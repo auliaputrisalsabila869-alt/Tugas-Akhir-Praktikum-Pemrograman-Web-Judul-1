@@ -136,7 +136,7 @@ require_once __DIR__ . '/includes/header.php';
                             <td><a href="mailto:<?= htmlspecialchars ($mhs['email']) ?>" class="link-email"><?= htmlspecialchars($mhs['email']) ?></a></td>
                             <td>
                                 <!-- Percobaan 4-2 Langkah 5 -->
-                                <a href="proses_hapus.php?id=<?= urlencode($mhs['npm']) ?>"
+                                <a href="proses_hapus.php?npm=<?= urlencode($mhs['npm']) ?>"
                                 class= "btn btn - danger btn-sm"
                                 onclick="return confirm('Apakah Anda yakin ingin menghapus mahasiswa <?= htmlspecialchars(addslashes($mhs['nama'])) ?> (npm: <?=
                                 htmlspecialchars ($mhs['npm']) ?>)?'); ">
